@@ -14,7 +14,8 @@ func main(){
 	card2 := newCard()
 	fmt.Println(card2)
 
-	cards:= [] string {}
+	// cards:= [] string {}
+	cards:= deck{}
 	cards = append(cards, "5♦️", card, card1, newCard() )
 	fmt.Println(cards)
 	for i, crd:= range cards{
