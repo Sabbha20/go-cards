@@ -17,10 +17,14 @@ func main(){
 	// cards:= [] string {}
 	cards:= deck{}
 	cards = append(cards, "5♦️", card, card1, newCard() )
+	println("============================")
 	fmt.Println(cards)
+	println("============================")
 	for i, crd:= range cards{
 		fmt.Println(i, crd)
 	}
+	println("============================")
+	cards.print()
 }
 
 func newCard() string{
